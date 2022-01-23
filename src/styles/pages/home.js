@@ -9,7 +9,6 @@ export const Container = styled.div`
   font-family: sans-serif;
   background-color: powderblue;
 
-  
   .book {
     position: relative;
     width: 350px;
@@ -36,6 +35,7 @@ export const Container = styled.div`
     left: 0;
     transform-origin: left;
     transition: transform 0.5s;
+    overflow: hidden;
   }
 
   .front {
