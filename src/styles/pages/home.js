@@ -88,17 +88,4 @@ export const Container = styled.div`
     font-size: 50px;
     color: gray;
   }
-
-  /* Paper stack order */
-  #p1 {
-    z-index: 3;
-  }
-
-  #p2 {
-    z-index: 2;
-  }
-
-  #p3 {
-    z-index: 1;
-  }
 `;
